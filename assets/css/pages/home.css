@@ -1,0 +1,34 @@
+
+/* hero container start */
+.header-hero-container {
+    width: 100%;
+    background-color: #68D5851A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-hero-container .content {
+    display: flex;
+    width: 518px;
+    height: 402px;
+    flex-direction: column;
+}
+
+.header-hero-container .content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #161C2D;
+}
+
+.header-hero-container .content p {
+    font-size: 19px;
+    font-weight: 400;
+    color: #161C2D;
+}
+.header-hero-container .profile img{
+    width: 481px;
+    height: 685px;
+}
+/* hero container end */
