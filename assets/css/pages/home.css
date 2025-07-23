@@ -174,14 +174,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #F4F7FA;
 }
 .mnewsc-content-first{
+    width: 505px;
+    height: 129px;
     display: flex;
     flex-direction: column;
     text-align: center;
-
+    margin-top:97px;
 }
-.mnewsc-content-first-title h5{
+.mnewsc-content-first-title span{
     font-size: 36px;
     font-weight: 700;
 }
@@ -190,6 +193,11 @@
     opacity: 0.7;
     font-weight: 400;
     margin-top: 17px;
+}
+.mnewsc-content-second{
+    display: flex;
+    gap: 31px;
+    margin-bottom:140px;
 }
 .mnewsc-content-second-item {
     display: flex;
