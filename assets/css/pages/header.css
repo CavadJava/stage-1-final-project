@@ -1,0 +1,45 @@
+
+/* header container start */
+.hdr{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex:33%
+}
+.hdr-content{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Rubik';
+    color: #161C2D;
+}
+.hdr-navigation .nav-items .nav-item {
+    font-size: 15px;
+    font-weight: 700;
+}
+.nav-items {
+    display: flex;
+    list-style: none;
+    flex: 33%;
+    gap: 20px;
+}
+
+.nav-items > :hover {
+    color: #FB6D45;
+    cursor: pointer;
+}
+.hdr-login-signup{
+    border: 1px;
+    display: flex;
+    gap: 10px;
+}
+
+.hdr-login-signup .login-btn,.signup-btn {
+    background-color: #FFFFFF;
+    color: #161C2D;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    border: none;
+    cursor: pointer;
+}
+/* header container end */
