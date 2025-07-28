@@ -17,7 +17,6 @@ body{
 .our-story-section{
     margin-top: 100px;
     background-color: var(--bg-color);
-    /* padding: 30px 0; */
     padding: 109px 0 141px 0;
 
 }
@@ -202,7 +201,7 @@ flex-direction: column;
 }
 
 .row-bottom {
-  margin-top: 60px; /* aşağıdakı şəkillər yuxarıdan 60px boşluq */
+  margin-top: 60px;
 }
 .img-card {
   width: 267px;
@@ -240,7 +239,4 @@ padding-bottom: 4px;
 opacity: 70%;
 color: var(--text-color);
 }
-
-
-
   /* MEET OUR TEAM SECTION END  */
