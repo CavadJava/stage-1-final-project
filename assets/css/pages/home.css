@@ -169,6 +169,122 @@
 }
 /* content container end */
 
+/* jobs container start */
+.main-jobs-container {
+    margin: 107px 0 141px 0;
+}
+
+.mjobs-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mjobs-content-page {
+    padding: 0 0;
+    margin-left: 245px;
+    margin-bottom: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mjobs-content-title span {
+    color: #161C2D;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.mjobs-content-description p {
+    color: #161C2D;
+    font-size: 19px;
+    font-weight: 400;
+    opacity: 0.7;
+    inline-size: 353px;
+}
+
+/* second */
+.mjobs-content-jobs {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*gap: 30px;*/
+    margin: 0 245px;
+}
+
+.mjobs-content-jobs-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.mjobs-content-jobs-item-logo {
+    width: 255px;
+    height: 279px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.mjobs-content-jobs-item-work-type-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.mjobs-content-jobs-item-work-type {
+    padding-left: 34px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #68D585;
+}
+
+.hwea {
+    color: #68D585;
+}
+
+.hweb {
+    color: #473BF0;
+}
+
+.hwec {
+    color: #68D585;
+}
+
+.hwed {
+    color: #F64B4B
+}
+
+.mjobs-content-jobs-item-work-name {
+    padding-bottom: 17px;
+    padding-left: 32px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #161C2D;
+}
+
+.mjobs-content-jobs-item-work-location {
+    padding-left: 32px;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.7;
+    color: #161C2D;
+}
+
+.mjobs-content-jobs-item-work-company {
+    padding-left: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+
+/* jobs container end */
+
 /* news container start */
 .main-news-container{
     display: flex;
