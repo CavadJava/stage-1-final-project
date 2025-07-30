@@ -6,8 +6,8 @@
 }
 
 :root {
-  --text-color:#161C2D;
-  --font-main:Roboto;
+    --text-color:#161C2D;
+    --font-main:Roboto;
 
 }
 .support .support-hero{
@@ -15,36 +15,36 @@
     text-align: center;
 }
 .support-hero .support-hero-title{
-font-family:var(--font-main);
-font-weight: 700;
-font-size: 60px;
-line-height: 65px;
-letter-spacing: -2px;
-text-align: center;
-padding-bottom: 44px;
-color: var(--text-color);
+    font-family:var(--font-main);
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    text-align: center;
+    padding-bottom: 44px;
+    color: var(--text-color);
 }
 .support-hero .support-hero-description{
-font-family: var(--font-main);
-font-weight: 400;
-font-size: 19px;
-line-height: 32px;
-letter-spacing: -0.2px;
-text-align: center;
-color: var(--text-color);
-opacity: 0.7;
+    font-family: var(--font-main);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: var(--text-color);
+    opacity: 0.7;
 }
 .support .support-content{
     margin:0 322px 210px 424px ;
 }
 .support .support-content .description{
-font-family: Roboto;
-font-weight: 400;
-font-size: 17px;
-line-height: 29px;
-letter-spacing: -0.2px;
-opacity: 70%;
-color: #161C2D;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+    opacity: 70%;
+    color: #161C2D;
 
 }
 .right-padding{
@@ -56,13 +56,13 @@ color: #161C2D;
 }
 
 .support-content .support-content-container h6{
-font-family: var(--font-main);
-font-weight: 700;
-font-size: 19px;
-line-height: 32px;
-letter-spacing: -0.2px;
-padding-bottom: 20px;
-color: var(--text-color);
+    font-family: var(--font-main);
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    padding-bottom: 20px;
+    color: var(--text-color);
 }
 .icon-text{
     display: flex;
@@ -70,6 +70,6 @@ color: var(--text-color);
     gap: 15px;
 }
 .icon-text .material-icons{
-font-size: 16px;
-color: var(--text-color);
+    font-size: 16px;
+    color: var(--text-color);
 }
