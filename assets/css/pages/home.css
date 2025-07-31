@@ -37,7 +37,7 @@
     height: 195px;
     font-size: 60px;
     font-weight: 700;
-    color: #161C2D;
+    color: var(--text-color);
 }
 
 .header-hero-container .content p {
@@ -45,7 +45,7 @@
     height: 96px;
     font-size: 19px;
     font-weight: 400;
-    color: #161C2D;
+    color: var(--text-color);
 }
 
 .header-hero-container .profile{
@@ -59,7 +59,7 @@
 }
 
 .header-hero-container .header-hero-subtitle{
-    color: #161C2D;
+    color: var(--text-color);
     font-size: 19px;
     font-weight: 400;
     font-family: var(--font-family);
@@ -91,7 +91,7 @@
 .main-company-container .main-company-title {
     font-size: 36px;
     font-weight: 700;
-    color: #161C2D;
+    color: var(--text-color);
     font-family: var(--font-family);
     text-align: center;
     letter-spacing: 1.2px;
@@ -120,7 +120,7 @@
 .main-category-container {
     display: flex;
     flex-direction: column;
-    background-color: #161C2D;
+    color: var(--text-color);
     padding: 132px 0 144px 0;
 }
 
@@ -163,7 +163,7 @@
 }
 
 .main-category-container .job-tab p {
-    color: #161C2D;
+    color: var(--text-color);
     opacity: 0.7;
     font-size: 15px;
     font-weight: 400;
@@ -192,13 +192,13 @@
 .main-content-title {
     font-size: 36px;
     font-weight: 700;
-    color: #161C2D;
+    color: var(--text-color);
 }
 
 .main-content-description {
     font-size: 19px;
     font-weight: 400;
-    color: #161C2D;
+    color: var(--text-color);
     opacity: 0.7;
 }
 
@@ -242,7 +242,7 @@
     font-size: 17px;
     font-weight: 400;
     opacity: 0.7;
-    color: #161C2D;
+    color: var(--text-color);
 }
 
 /* content container end */
@@ -279,13 +279,13 @@
 }
 
 .mjobs-content-title span {
-    color: #161C2D;
+    color: var(--text-color);
     font-size: 36px;
     font-weight: 700;
 }
 
 .mjobs-content-description p {
-    color: #161C2D;
+    color: var(--text-color);
     font-size: 19px;
     font-weight: 400;
     opacity: 0.7;
@@ -349,7 +349,7 @@
     padding-left: 32px;
     font-size: 21px;
     font-weight: 700;
-    color: #161C2D;
+    color: var(--text-color);
 }
 
 .mjobs-content-jobs-item-work-location {
@@ -357,7 +357,7 @@
     font-size: 15px;
     font-weight: 400;
     opacity: 0.7;
-    color: #161C2D;
+    color: var(--text-color);
 }
 
 .mjobs-content-jobs-item-work-company {
