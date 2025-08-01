@@ -27,19 +27,22 @@
     color: #FB6D45;
     cursor: pointer;
 }
+.hdr-login-signup > :hover {
+    color: #FB6D45;
+    cursor: pointer;
+}
 .hdr-login-signup{
     border: 1px;
     display: flex;
     gap: 10px;
 }
 
-.hdr-login-signup .login-btn,.signup-btn {
+.hdr-login-signup > a {
     background-color: #FFFFFF;
     color: #161C2D;
     font-size: 15px;
     font-weight: 700;
     font-family: 'Roboto';
-    border: none;
     cursor: pointer;
 }
 /* header container end */
