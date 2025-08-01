@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --text-color:#161C2D;
+}
+header .title{
+font-family: Rubik;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: -0.13px;
+text-align: center;
+padding-top: 25px;
+padding-bottom: 26px;
+
+}
+
+section{
+width: 1600px;
+height: 1104px;
+opacity: 1;
+margin-top:79px;
+margin-bottom: 69px;
+background-color: #F4F7FA;
+margin: auto;
+margin-bottom: 69px;
+}
+
+section .hero{
+    text-align: center;
+    padding: 125px 0 55px 0;
+}
+
+.hero .hero-title{
+font-family: Roboto;
+font-weight: 700;
+font-size: 60px;
+line-height: 65px;
+letter-spacing: -2px;
+text-align: center;
+color:var(--text-color) ;
+padding-bottom: 34px;
+
+}
+
+.hero .hero-description{
+font-family: Roboto;
+font-weight: 400;
+font-size: 19px;
+line-height: 32px;
+letter-spacing: -0.2px;
+text-align: center;
+opacity: 0.7;
+}
+
+.signup-container{
+width: 350px;
+height: 581px;
+opacity: 1;
+border-radius: 10px;
+border-width: 1px;
+background: #FFFFFF;
+border: 1px solid #E7E9ED;
+box-shadow: 0px 34px 33px -23px #161C2D21;
+margin: auto;
+padding: 0px 25px 30px 25px;
+outline: none;
+}
+
+form label{
+font-family: Roboto;
+font-weight: 700;
+font-size: 15px;
+line-height: 26px;
+letter-spacing: -0.1px;
+color: var(--text-color);
+text-align: start;
+display: block;
+margin-bottom: 7px;
+}
+
+
+.container{
+    padding-top: 26px;
+}
+
+form input{
+width: 300px;
+height: 50px;
+opacity: 1;
+border-radius: 8px;
+border: 1px solid #E7E9ED;
+}
+
+input::placeholder{
+padding: 12px 20px 12px 18px;
+font-family: Roboto;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+letter-spacing: -0.1px;
+opacity: 0.7;
+}
+
+.create-account-btn{
+width: 300px;
+height: 59px;
+opacity: 1;
+border-radius: 8px;
+background-color: #473BF0;
+color: #FFFFFF;
+outline: none;
+margin: 77px 0px 30px 0px;
+border: none;
+font-family: Roboto;
+font-weight: 700;
+font-size: 17px;
+line-height: 32px;
+letter-spacing: -0.6px;
+text-align: center;
+
+}
+
+.login-text{
+font-family: Roboto;
+font-weight: 400;
+font-size: 17px;
+line-height: 29px;
+letter-spacing: -0.2px;
+text-align: center;
+color: #161C2D;
+margin-top: 46px;
+}
+
+.login-link{
+text-decoration: none;
+color: #473BF0;
+}
