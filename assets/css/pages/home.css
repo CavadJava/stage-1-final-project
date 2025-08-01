@@ -1,7 +1,9 @@
 /* hero container start */
+header {
+    background-color: #68D5851A;
+}
 .header-hero-container {
     width: 100%;
-    background-color: #68D5851A;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,16 +206,19 @@
 .mjobs-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 62%;
 }
 
 .mjobs-content-page {
     padding: 0 0;
-    margin-left: 245px;
+    /*margin-left: 245px;*/
     margin-bottom: 84px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .mjobs-content-title span {
@@ -232,17 +237,17 @@
 
 /* second */
 .mjobs-content-jobs {
-    /*display: flex;*/
-    /*flex-direction: row;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     /*gap: 30px;*/
-    margin: 0 245px;
+    /*margin: 0 245px;*/
 }
 
 .mjobs-content-jobs-item {
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    gap: 30px;
     flex-wrap: wrap;
 }
 
