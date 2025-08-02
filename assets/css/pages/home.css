@@ -103,7 +103,6 @@ main, footer {
 /* category container start */
 .main-category-container {
     max-width: 1600px;
-    height: 746px;
     display: flex;
     flex-direction: column;
     background-color: #161C2D;
