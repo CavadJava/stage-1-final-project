@@ -1,9 +1,3 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 :root {
     --secondary-color: #F4F7FA;
     --text-color: #161C2D;
