@@ -297,6 +297,11 @@ main, footer {
     color: #F64B4B
 }
 
+.nav-items .nav-item:first-of-type a {
+    color: #FB6D45;
+}
+
+
 .mjobs-content-jobs-item-work-name {
     padding-bottom: 17px;
     padding-left: 32px;
