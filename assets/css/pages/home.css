@@ -1,13 +1,32 @@
 /* hero container start */
 header {
     background-color: #68D5851A;
+    top:21px;
+    left:48px;
+    height: 761px;
 }
 .header-hero-container {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 10px;
+}
+
+.header-hero-title{
+    padding: 0 0;
+    width: 348.64px;
+    height: 195px;
+    font-weight: 400;
+}
+
+.header-hero-subtitle{
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    opacity: 0.7;
+    font-size: 19px;
+    inline-size: 367.06px;
+    height: 96px;
 }
 
 .header-hero-container .content {
@@ -29,15 +48,24 @@ header {
     color: #161C2D;
 }
 
-.header-hero-container .profile img {
+.header-hero-container .profile {
+    right:200px;
+    bottom:183px;
+    position: relative;
+}
+.header-hero-container  img {
     width: 481px;
     height: 685px;
-}
+    position: absolute;
+  }
 
 /* hero container end */
 
 
 /* company container start */
+main, footer {
+    max-width: 1600px;
+}
 .main-company-container {
     display: flex;
     flex-direction: column;
@@ -60,8 +88,14 @@ header {
 }
 
 .main-company-container .main-company-description {
+    width: 686px;
+    height: 96px;
     font-size: 19px;
     font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    opacity: 0.7;
 }
 
 /* company container end */
@@ -69,6 +103,7 @@ header {
 
 /* category container start */
 .main-category-container {
+    max-width: 1600px;
     display: flex;
     flex-direction: column;
     background-color: #161C2D;
@@ -89,9 +124,14 @@ header {
 }
 
 .main-category-container .main-category-description {
+    width: 388px;
+    height: 64px;
     font-size: 19px;
     font-weight: 400;
+    font-family: 'Roboto';
     opacity: 0.65;
+    line-height: 32px;
+    letter-spacing: -0.2px;
     color: #FFFFFF
 }
 
@@ -118,6 +158,9 @@ header {
     opacity: 0.7;
     font-size: 15px;
     font-weight: 400;
+}
+.main-category-container .tab1{
+    background-color: #473BF0;
 }
 
 .main-category-container .job-tab:hover {
@@ -152,10 +195,9 @@ header {
     color: #161C2D;
     opacity: 0.7;
 }
-
 .content-second {
     display: flex;
-    gap: 69px;
+    justify-content: space-between;
 }
 
 .content-second-item {
@@ -164,6 +206,10 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+.content-second-item .item2 {
+    background-color: aqua;
+    margin-left: 50px;
 }
 
 .content-second-item .item {
@@ -205,10 +251,8 @@ header {
 
 .mjobs-content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    width: 62%;
 }
 
 .mjobs-content-page {
@@ -290,6 +334,11 @@ header {
     color: #F64B4B
 }
 
+.nav-items .nav-item:first-of-type a {
+    color: #FB6D45;
+}
+
+
 .mjobs-content-jobs-item-work-name {
     padding-bottom: 17px;
     padding-left: 32px;
@@ -345,10 +394,14 @@ header {
     opacity: 0.7;
     font-weight: 400;
     margin-top: 17px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    left: 2px;
 }
 
 .mnewsc-content-second {
     display: flex;
+    justify-content: space-between;
     gap: 31px;
     margin-bottom: 140px;
 }
@@ -359,24 +412,26 @@ header {
     flex-wrap: wrap;
     margin-top: 74px;
     margin-right: 0;
+    background-color: white;
 }
 
 .mnewsc-content-second-item-logo {
     width: 350px;
     height: 301px;
-    margin-bottom: 22px;
+    margin-bottom: 24px;
 }
-
 .mnewsc-content-second-item-title span {
     font-size: 15px;
     font-weight: 400;
     opacity: 0.7;
-    margin: 22px 32px 10px 32px
+    margin: 22px 32px 10px 32px;
 }
 
 .mnewsc-content-second-item-title p {
     font-size: 21px;
     font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.5px;
     margin: 10px 31px 27px 32px;
     inline-size: 287px;
 }
@@ -449,6 +504,9 @@ header {
 .msubc-content-end-title p {
     font-size: 15px;
     font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    text-align: center;
     opacity: 0.7;
 }
 
