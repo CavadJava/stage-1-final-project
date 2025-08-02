@@ -1,6 +1,8 @@
 /* hero container start */
 header {
     background-color: #68D5851A;
+    top:21px;
+    left:48px;
 }
 .header-hero-container {
     width: 100%;
@@ -38,6 +40,9 @@ header {
 
 
 /* company container start */
+main, footer {
+    max-width: 1600px;
+}
 .main-company-container {
     display: flex;
     flex-direction: column;
@@ -69,6 +74,8 @@ header {
 
 /* category container start */
 .main-category-container {
+    max-width: 1600px;
+    height: 746px;
     display: flex;
     flex-direction: column;
     background-color: #161C2D;
