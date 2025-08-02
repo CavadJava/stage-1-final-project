@@ -1,4 +1,8 @@
-
+header{
+    max-width: 1600px;
+    height: 761px;
+    background-color: #68D5851A;
+}
 /* header container start */
 .hdr{
     display: flex;
@@ -10,11 +14,16 @@
     font-size: 28px;
     font-weight: 700;
     font-family: 'Rubik';
+    line-height: 100%;
+    letter-spacing: -0.16px;
     color: #161C2D;
 }
 .hdr-navigation .nav-items .nav-item {
     font-size: 15px;
     font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    text-align: center;
 }
 .nav-items {
     display: flex;
@@ -43,15 +52,14 @@
     gap: 10px;
 }
 
-.hdr-login-signup a {
+.hdr-login-signup > a {
     list-style-type: none;
     color: black;
     text-decoration: none;
-}
-
-.hdr-login-signup > a {
-    background-color: #FFFFFF;
     color: #161C2D;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    text-align: right;
     font-size: 15px;
     font-weight: 700;
     font-family: 'Roboto';
