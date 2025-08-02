@@ -11,6 +11,10 @@
     --font-family: Roboto;
 }
 
+.nav-items .nav-item:nth-child(2) a {
+    color: #FB6D45;
+}
+
 body {
     height: auto;
 }

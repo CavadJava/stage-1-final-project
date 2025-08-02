@@ -10,6 +10,11 @@
     --font-main:Roboto;
 
 }
+
+.nav-items .nav-item:nth-child(3) a {
+    color: #FB6D45;
+}
+
 .support .support-hero{
     margin: 109px 480px 39px 480px;
     text-align: center;
