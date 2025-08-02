@@ -207,9 +207,9 @@ main, footer {
     align-items: center;
     gap: 20px;
 }
-.content-second-item .item2 {
-    background-color: aqua;
-    margin-left: 50px;
+.content-second-item img{
+    width: 502px;
+    height: 564px;
 }
 
 .content-second-item .item {
