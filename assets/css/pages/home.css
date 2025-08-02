@@ -195,10 +195,9 @@ main, footer {
     color: #161C2D;
     opacity: 0.7;
 }
-
 .content-second {
     display: flex;
-    gap: 69px;
+    justify-content: space-between;
 }
 
 .content-second-item {
@@ -207,6 +206,10 @@ main, footer {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+.content-second-item .item2 {
+    background-color: aqua;
+    margin-left: 50px;
 }
 
 .content-second-item .item {
@@ -398,6 +401,7 @@ main, footer {
 
 .mnewsc-content-second {
     display: flex;
+    justify-content: space-between;
     gap: 31px;
     margin-bottom: 140px;
 }
