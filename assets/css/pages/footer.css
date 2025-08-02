@@ -10,6 +10,15 @@ footer {
     font-size: 15px;
     font-weight: 400;
 }
+.footer-company-logo{
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: -0.16px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
 
 .footer-body-title {
     color: #ffffff;
@@ -24,7 +33,9 @@ footer {
 
 .footer-body-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 101px;
 }
 
 .footer-body-left-side {
@@ -38,6 +49,10 @@ footer {
     opacity: 0.65;
     font-weight: 400;
     font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    font-family: 'Roboto';
+    color: #FFFFFF;
 }
 
 .footer-socials-media-list {
@@ -72,3 +87,4 @@ footer {
 .links-item {
     width: 144px;
 }
+
