@@ -16,7 +16,7 @@ main *{
 }
 
 body {
-    height: auto;
+    max-width: 1600px;
 }
 
 .our-story-section {
