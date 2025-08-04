@@ -1,3 +1,13 @@
+main *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: auto;
+}
+
 /* hero container start */
 header {
     background-color: #68D5851A;
