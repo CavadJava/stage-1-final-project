@@ -15,9 +15,17 @@ main * {
     color: #FB6D45;
 }
 
-.support .support-hero{
-    margin: 109px 480px 39px 480px;
-    text-align: center;
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.support-content-end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .support-hero .support-hero-title{
     font-family:var(--font-main);
@@ -55,12 +63,12 @@ main * {
 .right-padding{
     padding-right: 123px;
 }
-.support-content .support-content-container{
+.support-content-container{
     padding-top:43px;
     padding-right: 123px;
 }
 
-.support-content .support-content-container h6{
+.support-content-container h6{
     font-family: var(--font-main);
     font-weight: 700;
     font-size: 19px;
