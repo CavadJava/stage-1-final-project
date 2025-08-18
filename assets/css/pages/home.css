@@ -74,7 +74,7 @@ header {
 
 /* company container start */
 main, footer {
-    max-width: 1600px;
+    /*max-width: 1600px;*/
 }
 .main-company-container {
     display: flex;
@@ -113,7 +113,7 @@ main, footer {
 
 /* category container start */
 .main-category-container {
-    max-width: 1600px;
+    /*max-width: 1600px;*/
     display: flex;
     flex-direction: column;
     background-color: #161C2D;
